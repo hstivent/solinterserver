@@ -14,12 +14,12 @@ export class Email {
                 rejectUnauthorized: false
             },
             auth: {
-                user: "andy.caicedo@sigma7.com.co", // generated ethereal user
-                pass: "ascrs72019" // generated ethereal password
+                user: "henry.montano@sigma7.com.co", // generated ethereal user
+                pass: "hsmr1994" // generated ethereal password
             }
         });
         let mailOptions = {
-            from: 'andy.caicedo@sigma7.com.co', // sender address
+            from: 'henry.montano@sigma7.com.co', // sender address
             to: req.body.email, // list of receivers
             subject: "Suscripción a QuickSales", // Subject line
             html: "<!DOCTYPE html><html><head><meta http-equiv='Content-Type' content='text/html; charset=utf-8' />" +
